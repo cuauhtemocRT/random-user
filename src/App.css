@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(56, 54, 54);
+}
+.description {
+  text-align: center;
+  padding: 2px 25px;
+  font-size: 15px;
+  color: rgb(92, 89, 89);
+}
+.card__user {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    box-shadow: 2px 2px 5px rgb(114, 114, 114);
+    border-radius: 2%;
+}
+.card__description li{
+    list-style: none;
+}
+img {
+    border-radius: 10%;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgb(49, 49, 49);
+}
+hr {
+    width: 95%;
+    background: rgb(85, 85, 85);
+    margin: 10px;
+}
+.card__btn {
+    background: rgb(88, 62, 206);
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.card__btn a {
+    color: white;
+    text-decoration: none;
+}
