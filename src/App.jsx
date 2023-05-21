@@ -21,7 +21,7 @@ function App() {
             <h1>RANDOM USER GENERATOR</h1>
       <p className="description">
         A free,
-        <a href="https://glistening-toffee-68ca24.netlify.app/">open-source </a>
+        <a href="https://randomuser.me/">open-source </a>
         API for generating random user data
       </p>
       <div className="card__user">

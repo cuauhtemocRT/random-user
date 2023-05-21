@@ -29,7 +29,7 @@ const CardUser = ({ user }) => {
       </div>
       <hr />
       <div className="card__btn">
-        <a href="http://localhost:5174/">New user random</a>
+        <a href="https://glistening-toffee-68ca24.netlify.app/">New user random</a>
       </div>
     </section>
   );
