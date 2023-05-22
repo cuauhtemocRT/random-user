@@ -39,6 +39,8 @@ h1 {
 }
 .card__description li{
     list-style: none;
+    display: flex;
+    align-items: center;
 }
 img {
     border-radius: 10%;
@@ -58,4 +60,9 @@ hr {
 .card__btn a {
     color: white;
     text-decoration: none;
+}
+ul {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-inline-start: 0px;
 }
